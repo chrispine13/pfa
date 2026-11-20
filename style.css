@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+}
+.container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.2);
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-1{
+    background: #0530ec;
+    height: 100%;
+    padding: 15px;
+    box-sizing: 15px;
+    border-radius: 15px;
+}
+.card-2{
+    background: #01ee5c;
+    height: 100%;
+    padding: 15px;
+    box-sizing: 15px;
+     border-radius: 15px;
+}
+.card-3{
+   background: #ee9b01;
+    height: 100%;
+    padding: 15px;
+    box-sizing: 15px;
+     border-radius: 15px;
+}
+.card-4{
+    background: #e4dfe4;
+    height: 100%;
+    padding: 15px;
+    box-sizing: 15px;
+     border-radius: 15px;
+}
+.card-1:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.card-2:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.card-3:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.card-4:hover{
+    transform: translateY(-20px) ;
+    transition: 0.5s;
+}
+.icon{
+    color: red;
+    background: sky;
+    padding:  15px;
+}
